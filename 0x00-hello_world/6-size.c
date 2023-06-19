@@ -8,13 +8,11 @@
 int main(void)
 
 {
-	char *variabletype[] = {"char", "unsigned char", "signed char", "int", "unsigned int", "short", "unsigned short", "long", "unsigned long", "long long","unsigned long long"};
-	int i;
+	printf("Size of a char: %zu byte(s)\n", sizeof(char));
+	printf("Size of an int: %zu byte(s)\n", sizeof(int));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(long int));
+	printf("size of a long long int: %zu byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %zu byte(s)\n", sizeof(float));
 
-	for (i = 0; i < 11; i++)
-	{
-		printf ("Size of %s is %u\n", variabletype[i], (unsigned int)(sizeof(variabletype[i])));
-	}
-	
 	return (0);
 }
