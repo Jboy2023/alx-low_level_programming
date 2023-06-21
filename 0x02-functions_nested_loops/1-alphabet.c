@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - entry point
  * Description: prints the alphabet, in lowercase, followed by a new line
  * You can only use _putchar twice in your code
- * Return: 0; success
+ * Return: void
  */
 
 void print_alphabet(void)
