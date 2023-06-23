@@ -7,15 +7,14 @@
  * Return: 0 to 9
  */
 
-void int print_numbers(void)
+void print_numbers(void)
 
 {
-	char n;
+	int x;
 
-	for (n = 0; n <= 9; n++)
+	for (x = '0'; x <= '9'; x++)
 	{
-		_putchar(n);
+		_putchar(x);
 	}
-	_putchar('\n')
-		return (n);
+	_putchar('\n');
 }
