@@ -8,7 +8,7 @@
  * If the number of characters is odd
  * the function should print the last n characters of the string,
  * where n = (length_of_the_string - 1) / 2
- * @*str: string to be printed
+ * @str: string to be printed
  * Return: void
  */
 
@@ -35,5 +35,5 @@ void puts_half(char *str)
 	{
 		_putchar(str[m]);
 	}
-       	_putchar('\n');
+	_putchar('\n');
 }
