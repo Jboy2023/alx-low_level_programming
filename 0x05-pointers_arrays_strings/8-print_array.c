@@ -8,7 +8,7 @@
  * Numbers must be separated by comma, followed by a space
  * The numbers should be displayed in the same order as stored in array
  * You are allowed to use printf
- * @*a: integer
+ * @a: integer
  * @n: integer
  * Return: void
  */
