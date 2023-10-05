@@ -11,7 +11,7 @@
 char *_strdup(char *str)
 
 {
-	int a = 0, i = 1;
+	int b = 0, i = 1;
 	char *s;
 
 	if (str == NULL)
@@ -28,11 +28,11 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (a < i)
+	while (b < i)
 	{
-		s[a] = str[a];
-		a++;
+		s[b] = str[b];
+		b++;
 	}
-	s[a] = '\0';
+	s[b] = '\0';
 	return (s);
 }
